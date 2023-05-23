@@ -8,8 +8,8 @@
 byte mac[] = {  
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED }; // you can find this written on the board of some Arduino Ethernets or shields
 
-#define TRIG_PIN 12
-#define ECHO_PIN 13
+#define TRIG_PIN 2
+#define ECHO_PIN 3
 
 long duration;
 int distance;
