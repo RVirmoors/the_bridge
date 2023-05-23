@@ -19,7 +19,7 @@ IPAddress ip(SELF_IP);
 const unsigned int inPort = IN_PORT;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   // pinMode(PWM_PIN, OUTPUT);
   
   Ethernet.begin(mac,ip);
