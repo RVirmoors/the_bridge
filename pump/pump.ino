@@ -3,7 +3,7 @@
 #include <SPI.h>
 #include <OSCMessage.h>
 
-#define PWM_PIN 5
+#define PWM_PIN 3
 
 #include "ipconfig.h"
 // https://forum.arduino.cc/t/finding-the-mac-address-from-ethernet-shield-w5100/203506
