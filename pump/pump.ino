@@ -8,7 +8,7 @@
 #include "ipconfig.h"
 // https://forum.arduino.cc/t/finding-the-mac-address-from-ethernet-shield-w5100/203506
 byte mac[] = {  
-  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED }; // you can find this written on the board of some Arduino Ethernets or shields
+  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEF }; // you can find this written on the board of some Arduino Ethernets or shields
 
 EthernetUDP udp;
 OSCMessage oscMessage;
