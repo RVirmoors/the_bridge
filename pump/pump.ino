@@ -8,7 +8,7 @@
 #include "ipconfig.h"
 // https://forum.arduino.cc/t/finding-the-mac-address-from-ethernet-shield-w5100/203506
 byte mac[] = {  
-  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEF }; // you can find this written on the board of some Arduino Ethernets or shields
+  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEA }; // you can find this written on the board of some Arduino Ethernets or shields
 
 EthernetUDP udp;
 OSCMessage oscMessage;
@@ -17,6 +17,8 @@ IPAddress ip(SELF_IP);
 
 // port number
 const unsigned int inPort = IN_PORT;
+
+float duty = 0.0f;
 
 void setup() {
   Serial.begin(115200);
@@ -27,7 +29,6 @@ void setup() {
 }
 
 void loop() {
-  float duty = 0.0f;
   if (udp.parsePacket()) {
     while (udp.available()) {
       // Read the incoming OSC message
@@ -55,6 +56,7 @@ void loop() {
     oscMessage.empty();
   }
 
-  duty *= 255.f;
-  analogWrite(PWM_PIN, (int)duty);
+  int out_duty = duty * 255.f;
+  Serial.println(out_duty);  // Print with 4 decimal places
+  analogWrite(PWM_PIN, out_duty);
 }
