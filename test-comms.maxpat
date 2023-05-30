@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 833.0, 277.0, 977.0, 480.0 ],
+		"rect" : [ 1034.0, 167.0, 809.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,7 +103,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 550.0, 144.0, 150.0, 30.0 ],
+					"patching_rect" : [ 644.0, 144.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -118,7 +118,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 410.0, 144.0, 88.0, 22.0 ],
-					"text" : "/distance 1176"
+					"text" : "/distance 1174"
 				}
 
 			}
