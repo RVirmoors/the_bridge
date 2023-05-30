@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1110.0, 95.0, 977.0, 480.0 ],
+		"rect" : [ 833.0, 277.0, 977.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,41 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 289.0, 240.0, 120.0, 22.0 ],
+					"text" : "if $i1 < 1000 then $i1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 289.0, 304.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 289.0, 173.0, 87.0, 22.0 ],
+					"text" : "route /distance"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"basictuning" : 440,
 					"data" : 					{
@@ -82,8 +117,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 224.0, 144.0, 115.0, 22.0 ],
-					"text" : "/distance 4"
+					"patching_rect" : [ 410.0, 144.0, 88.0, 22.0 ],
+					"text" : "/distance 1176"
 				}
 
 			}
@@ -131,7 +166,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 329.0, 228.0, 50.0, 22.0 ]
+					"patching_rect" : [ 50.5, 335.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -142,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 329.0, 277.0, 85.0, 22.0 ],
+					"patching_rect" : [ 50.5, 384.0, 85.0, 22.0 ],
 					"text" : "prepend /pwm"
 				}
 
@@ -153,7 +188,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 329.0, 332.0, 138.0, 22.0 ],
+					"patching_rect" : [ 50.5, 439.0, 138.0, 22.0 ],
 					"text" : "udpsend 10.0.0.13 9913"
 				}
 
@@ -192,8 +227,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 3 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -213,7 +262,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 1,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
+					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
