@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1222.0, 295.0, 933.0, 1098.0 ],
+		"rect" : [ 142.0, 77.0, 1214.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 437.0, 1039.0, 50.0, 22.0 ]
+					"patching_rect" : [ 416.0, 1027.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 494.0, 1039.0, 50.0, 22.0 ]
+					"patching_rect" : [ 479.5, 1027.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 814.0, 1031.0, 24.0, 24.0 ]
+					"patching_rect" : [ 797.0, 1027.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -108,7 +108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 746.0, 1016.0, 24.0, 24.0 ]
+					"patching_rect" : [ 733.5, 1027.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -120,7 +120,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 698.0, 1033.0, 24.0, 24.0 ]
+					"patching_rect" : [ 670.0, 1027.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -132,7 +132,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 640.0, 1019.0, 24.0, 24.0 ]
+					"patching_rect" : [ 606.5, 1027.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -145,7 +145,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 554.0, 1029.0, 50.0, 22.0 ]
+					"patching_rect" : [ 543.0, 1027.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 380.0, 1027.0, 50.0, 22.0 ]
+					"patching_rect" : [ 352.5, 1027.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -171,7 +171,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 310.0, 1033.0, 50.0, 22.0 ]
+					"patching_rect" : [ 289.0, 1027.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -184,7 +184,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 234.0, 1030.0, 50.0, 22.0 ]
+					"patching_rect" : [ 224.0, 1027.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -486,8 +486,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -945,8 +945,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1352,43 +1352,6 @@
 			}
 , 			{
 				"box" : 				{
-					"basictuning" : 440,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/The Bridge-Fundal 1.wav",
-								"filename" : "The Bridge-Fundal 1.wav",
-								"filekind" : "audiofile",
-								"id" : "u618000291",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-15",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 602.0, 165.0, 150.0, 30.0 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1567,16 +1530,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 3 ],
 					"order" : 0,
-					"source" : [ "obj-15", 0 ]
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1584,7 +1540,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 2 ],
 					"order" : 1,
-					"source" : [ "obj-15", 0 ]
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1592,7 +1548,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"order" : 2,
-					"source" : [ "obj-15", 0 ]
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1600,7 +1556,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"order" : 3,
-					"source" : [ "obj-15", 0 ]
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1980,13 +1943,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "OSC-route.mxe64",
 				"type" : "mx64"
-			}
-, 			{
-				"name" : "The Bridge-Fundal 1.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio",
-				"patcherrelativepath" : "./audio",
-				"type" : "WAVE",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "drumLoop.aif",
