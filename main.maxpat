@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 142.0, 77.0, 1744.0, 969.0 ],
+		"rect" : [ 854.0, 229.0, 1458.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,117 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 951.666685163974762, 698.0, 150.0, 62.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 951.666685163974762, 698.0, 150.0, 62.0 ],
+					"text" : "1 = A dreapta\n4 = A stanga\n5 = B stanga\n8 = B dreapta"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 344.0, 458.000013649463654, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 258.0, 458.000013649463654, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 344.0, 429.333346128463745, 27.0, 22.0 ],
+					"text" : "r Bt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 258.0, 429.333346128463745, 27.0, 22.0 ],
+					"text" : "r At"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 183.0, 465.333346128463745, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 183.0, 429.333346128463745, 24.0, 22.0 ],
+					"text" : "r B"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 97.0, 465.333346128463745, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 97.0, 429.333346128463745, 23.0, 22.0 ],
+					"text" : "r A"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
@@ -188,11 +299,11 @@
 					"clipheight" : 36.333333760499954,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\rv\\Documents\\the_bridge\\audio\\Voci Background\\chinese speaking crowd Wuhan Market Sound Effect.mp3",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\chinese speaking crowd Wuhan Market Sound Effect.mp3",
 								"filename" : "chinese speaking crowd Wuhan Market Sound Effect.mp3",
 								"filekind" : "audiofile",
-								"id" : "u779001735",
-								"selection" : [ 0.103448275862069, 1.0 ],
+								"id" : "u436000890",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -200,10 +311,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\rv\\Documents\\the_bridge\\audio\\Voci Background\\German Crowd with Hum of Voices.mp3",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u483001732",
+								"id" : "u424000893",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -212,10 +323,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\rv\\Documents\\the_bridge\\audio\\Voci Background\\Group of People Talking _ HQ Sound Effect.mp3",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\Group of People Talking _ HQ Sound Effect.mp3",
 								"filename" : "Group of People Talking _ HQ Sound Effect.mp3",
 								"filekind" : "audiofile",
-								"id" : "u880001733",
+								"id" : "u260000896",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -224,10 +335,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\rv\\Documents\\the_bridge\\audio\\Voci Background\\Prague, Czech Republic Outdoor Crowd Ambience.mp3",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u096001734",
+								"id" : "u286000899",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -266,7 +377,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 726.000003755092621, 529.333349466323853, 83.333331346511841, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "   A          B\nL    R    L    R"
 				}
 
@@ -277,11 +387,11 @@
 					"clipheight" : 36.333333760499954,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\rv\\Documents\\the_bridge\\audio\\Voci Background\\chinese speaking crowd Wuhan Market Sound Effect.mp3",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\chinese speaking crowd Wuhan Market Sound Effect.mp3",
 								"filename" : "chinese speaking crowd Wuhan Market Sound Effect.mp3",
 								"filekind" : "audiofile",
-								"id" : "u779001735",
-								"selection" : [ 0.103448275862069, 1.0 ],
+								"id" : "u768000877",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -289,10 +399,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\rv\\Documents\\the_bridge\\audio\\Voci Background\\German Crowd with Hum of Voices.mp3",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u483001732",
+								"id" : "u264000881",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -301,10 +411,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\rv\\Documents\\the_bridge\\audio\\Voci Background\\Group of People Talking _ HQ Sound Effect.mp3",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\Group of People Talking _ HQ Sound Effect.mp3",
 								"filename" : "Group of People Talking _ HQ Sound Effect.mp3",
 								"filekind" : "audiofile",
-								"id" : "u880001733",
+								"id" : "u209000884",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -313,10 +423,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\rv\\Documents\\the_bridge\\audio\\Voci Background\\Prague, Czech Republic Outdoor Crowd Ambience.mp3",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u096001734",
+								"id" : "u139000887",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -531,7 +641,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1029.041685163974762, 333.333349525928497, 88.25, 55.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set cutoff or center freq"
 				}
 
@@ -679,22 +788,22 @@
 					"clipheight" : 27.666672170162201,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/The Bridge-Fundal 1.wav",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\The Bridge-Fundal 1.wav",
 								"filename" : "The Bridge-Fundal 1.wav",
 								"filekind" : "audiofile",
-								"id" : "u392000976",
+								"id" : "u650000870",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 0
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\rv\\Documents\\the_bridge\\audio\\The Bridge-Fundal 2.wav",
+								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\The Bridge-Fundal 2.wav",
 								"filename" : "The Bridge-Fundal 2.wav",
 								"filekind" : "audiofile",
-								"id" : "u763001575",
+								"id" : "u242000873",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -764,15 +873,22 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 0,
-					"patching_rect" : [ 728.000003755092621, 723.333345711231232, 75.0, 22.0 ],
-					"text" : "dac~ 1 4 5 8"
+					"patching_rect" : [ 727.000003755092621, 723.333345711231232, 85.0, 22.0 ],
+					"text" : "dac~ 1 4 5 8 7"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-11", 0 ]
@@ -795,28 +911,64 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 3 ],
+					"destination" : [ "obj-2", 4 ],
+					"order" : 0,
 					"source" : [ "obj-14", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
+					"destination" : [ "obj-2", 3 ],
+					"order" : 1,
+					"source" : [ "obj-14", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 4 ],
+					"order" : 0,
 					"source" : [ "obj-14", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-2", 2 ],
+					"order" : 1,
+					"source" : [ "obj-14", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 4 ],
+					"order" : 0,
 					"source" : [ "obj-14", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"order" : 1,
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 4 ],
+					"order" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -905,6 +1057,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 1 ],
 					"source" : [ "obj-26", 1 ]
 				}
@@ -942,6 +1101,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-28", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -1094,22 +1267,40 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-7", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-12", 3 ],
+					"order" : 0,
 					"source" : [ "obj-7", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-12", 1 ],
+					"order" : 1,
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 2 ],
+					"order" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-7", 3 ]
 				}
 
 			}
@@ -1169,14 +1360,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "German Crowd with Hum of Voices.mp3",
-				"bootpath" : "~/Documents/the_bridge/audio/Voci Background",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Voci Background",
 				"patcherrelativepath" : "./audio/Voci Background",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Group of People Talking _ HQ Sound Effect.mp3",
-				"bootpath" : "~/Documents/the_bridge/audio/Voci Background",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Voci Background",
 				"patcherrelativepath" : "./audio/Voci Background",
 				"type" : "Mp3",
 				"implicit" : 1
@@ -1193,28 +1384,28 @@
 			}
 , 			{
 				"name" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
-				"bootpath" : "~/Documents/the_bridge/audio/Voci Background",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Voci Background",
 				"patcherrelativepath" : "./audio/Voci Background",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "The Bridge-Fundal 1.wav",
-				"bootpath" : "~/Documents/the_bridge/audio",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio",
 				"patcherrelativepath" : "./audio",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "The Bridge-Fundal 2.wav",
-				"bootpath" : "~/Documents/the_bridge/audio",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio",
 				"patcherrelativepath" : "./audio",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "chinese speaking crowd Wuhan Market Sound Effect.mp3",
-				"bootpath" : "~/Documents/the_bridge/audio/Voci Background",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Voci Background",
 				"patcherrelativepath" : "./audio/Voci Background",
 				"type" : "Mp3",
 				"implicit" : 1
@@ -1227,14 +1418,14 @@
 			}
 , 			{
 				"name" : "drunkwalk.maxpat",
-				"bootpath" : "~/Documents/the_bridge",
+				"bootpath" : "~/Documents/GitHub/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "test-comms.maxpat",
-				"bootpath" : "~/Documents/the_bridge",
+				"bootpath" : "~/Documents/GitHub/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
