@@ -3,16 +3,16 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 322.0, 236.0, 1807.0, 969.0 ],
+		"rect" : [ 42.0, -995.0, 1498.0, 969.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -40,12 +40,1493 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-95",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1091.000000357627869, 186.133336901664734, 68.0, 22.0 ],
+					"text" : "r cold_gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1701.300000250339508, 293.333338856697083, 70.0, 22.0 ],
+					"text" : "s cold_gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1730.800000250339508, 63.966656863689423, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "clear" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 1136.0, 118.0, 681.0, 913.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "clear" ],
+									"patching_rect" : [ 44.999998969417575, 68.0, 51.0, 22.0 ],
+									"text" : "t b clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 44.999998969417575, 190.0, 112.999999999999986, 36.0 ],
+									"text" : "combine path /sfx_synth/hot.wav"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 44.999998969417575, 252.0, 96.0, 22.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 44.999998969417575, 156.0, 77.0, 22.0 ],
+									"text" : "absolutepath"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 44.999998969417575, 127.0, 38.0, 22.0 ],
+									"text" : "audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-57",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 44.999998969417575, 17.000001132488251, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-62",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 222.0, 327.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"midpoints" : [ 86.499998969417575, 114.0, 231.5, 114.0 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1730.800000250339508, 91.799994647502899, 34.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p file"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1714.0, 423.166662216186523, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "clear" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 850.0, 83.0, 681.0, 913.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "clear" ],
+									"patching_rect" : [ 44.999998969417575, 68.0, 51.0, 22.0 ],
+									"text" : "t b clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 44.999998969417575, 190.0, 143.0, 36.0 ],
+									"text" : "combine path /sfx_short/HeartBeat.wav"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 44.999998969417575, 252.0, 96.0, 22.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 44.999998969417575, 156.0, 77.0, 22.0 ],
+									"text" : "absolutepath"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 44.999998969417575, 127.0, 38.0, 22.0 ],
+									"text" : "audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-57",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 44.999998969417575, 17.000001132488251, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-62",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 222.0, 327.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"midpoints" : [ 86.499998969417575, 114.0, 231.5, 114.0 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1714.0, 451.0, 34.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p file"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 1080.0, -846.0, 681.0, 709.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 45.0, 121.0, 116.0, 22.0 ],
+									"text" : "combine path /voce/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 45.0, 164.0, 31.0, 22.0 ],
+									"text" : "t s s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 359.0, 96.0, 22.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 122.0, 246.0, 79.0, 22.0 ],
+									"text" : "route append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 325.0, 134.0, 95.0, 22.0 ],
+									"text" : "types .wav .mp3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"items" : [ "Voce 1.wav", ",", "Voce 2.wav", ",", "Voce 3.wav", ",", "Voce 4.wav", ",", "Voce 5.wav", ",", "Voce 6.wav", ",", "Voce 7.wav" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 237.5, 244.0, 100.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 325.0, 87.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 237.5, 177.0, 39.0, 22.0 ],
+									"text" : "folder"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 16.0, 286.0, 125.0, 36.0 ],
+									"text" : "combine pathname filename @triggers 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 87.0, 77.0, 22.0 ],
+									"text" : "absolutepath"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 58.0, 38.0, 22.0 ],
+									"text" : "audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-57",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 44.999998969417575, 17.000001132488251, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-62",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 182.0, 425.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"order" : 0,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"order" : 1,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-9", 1 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1269.75, 155.10000313656235, 40.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p files"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1269.75, 125.600004136562347, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 913.0, 75.833343327045441, 81.0, 22.0 ],
+					"text" : "loadmess -40"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 1080.0, -846.0, 681.0, 709.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 45.0, 121.0, 132.0, 22.0 ],
+									"text" : "combine path /voci_bg/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 45.0, 164.0, 31.0, 22.0 ],
+									"text" : "t s s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 359.0, 96.0, 22.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 122.0, 246.0, 79.0, 22.0 ],
+									"text" : "route append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 325.0, 134.0, 95.0, 22.0 ],
+									"text" : "types .wav .mp3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"items" : [ "Chinese Speaking Crowd in Wuhan Market.wav", ",", "English People Speaking.wav", ",", "German Crowd with Hum of Voices.mp3", ",", "Prague, Czech Republic Outdoor Crowd Ambience.mp3" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 237.5, 244.0, 100.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 325.0, 87.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 237.5, 177.0, 39.0, 22.0 ],
+									"text" : "folder"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 16.0, 286.0, 125.0, 36.0 ],
+									"text" : "combine pathname filename @triggers 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 87.0, 77.0, 22.0 ],
+									"text" : "absolutepath"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 58.0, 38.0, 22.0 ],
+									"text" : "audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-57",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 44.999998969417575, 17.000001132488251, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-62",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 182.0, 425.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"order" : 0,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"order" : 1,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-9", 1 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 514.083346113562584, 36.8333325518837, 40.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p files"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 514.083346113562584, 7.333333551883698, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 654.0, -830.0, 681.0, 622.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 16.0, 224.0, 87.0, 22.0 ],
+									"text" : "combine path /"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 45.0, 125.0, 31.0, 22.0 ],
+									"text" : "t s s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 359.0, 96.0, 22.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 122.0, 246.0, 79.0, 22.0 ],
+									"text" : "route append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 325.0, 134.0, 95.0, 22.0 ],
+									"text" : "types .wav .mp3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"items" : [ "fundal1.wav", ",", "fundal2.wav" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 237.5, 244.0, 100.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 325.0, 92.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 237.5, 177.0, 39.0, 22.0 ],
+									"text" : "folder"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 16.0, 286.0, 125.0, 36.0 ],
+									"text" : "combine pathname filename @triggers 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 92.0, 77.0, 22.0 ],
+									"text" : "absolutepath"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 58.0, 38.0, 22.0 ],
+									"text" : "audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-57",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 44.999998969417575, 17.000001132488251, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-62",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 182.0, 425.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"order" : 0,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"order" : 1,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-9", 1 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 107.666657000000001, 24.499998999999999, 40.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p files"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 107.666657000000001, -5.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1737.5, 369.500012159347534, 29.5, 22.0 ],
+					"patching_rect" : [ 1738.300000250339508, 248.499984502792358, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -57,7 +1538,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1700.5, 369.500012159347534, 29.5, 22.0 ],
+					"patching_rect" : [ 1701.300000250339508, 248.499984502792358, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -69,7 +1550,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1700.5, 337.000027656555176, 93.0, 22.0 ],
+					"patching_rect" : [ 1701.300000250339508, 216.0, 93.0, 22.0 ],
 					"text" : "route start done"
 				}
 
@@ -77,6 +1558,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-99",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -202,68 +1684,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1659.0, 94.0, 29.5, 22.0 ],
-					"text" : "5"
+					"text" : "1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 29.0,
+					"clipheight" : 41.79999840259552,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/Sfx Synth Long/Ezra Voices.wav",
-								"filename" : "Ezra Voices.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_synth/hot.wav",
+								"filename" : "hot.wav",
 								"filekind" : "audiofile",
-								"id" : "u343001082",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/Sfx Synth Long/Synth Bass.wav",
-								"filename" : "Synth Bass.wav",
-								"filekind" : "audiofile",
-								"id" : "u217001085",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/Sfx Synth Long/Violin 1.wav",
-								"filename" : "Violin 1.wav",
-								"filekind" : "audiofile",
-								"id" : "u692001088",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/Sfx Synth Long/Violin 2.wav",
-								"filename" : "Violin 2.wav",
-								"filekind" : "audiofile",
-								"id" : "u485001091",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/Sfx Synth Long/Viori + Synth.wav",
-								"filename" : "Viori + Synth.wav",
-								"filekind" : "audiofile",
-								"id" : "u819001094",
+								"id" : "u268002371",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -285,7 +1719,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1659.0, 140.0, 150.0, 150.0 ],
+					"patching_rect" : [ 1659.0, 140.0, 143.599999904632568, 42.79999840259552 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -331,16 +1765,17 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 29.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short/Heart Beat.wav",
-								"filename" : "Heart Beat.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_short/HeartBeat.wav",
+								"filename" : "HeartBeat.wav",
 								"filekind" : "audiofile",
-								"id" : "u744000909",
+								"id" : "u250002351",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
@@ -626,86 +2061,93 @@
 					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Sfx Human Voice\\Voce 1.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 1.wav",
 								"filename" : "Voce 1.wav",
 								"filekind" : "audiofile",
-								"id" : "u142000575",
+								"id" : "u714002299",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 0
+									"timestretch" : 0,
+									"speed" : 0.9
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Sfx Human Voice\\Voce 2.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 2.wav",
 								"filename" : "Voce 2.wav",
 								"filekind" : "audiofile",
-								"id" : "u521000569",
+								"id" : "u786002302",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 0
+									"timestretch" : 0,
+									"speed" : 0.9
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Sfx Human Voice\\Voce 3.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 3.wav",
 								"filename" : "Voce 3.wav",
 								"filekind" : "audiofile",
-								"id" : "u990000570",
+								"id" : "u888002305",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 0
+									"timestretch" : 0,
+									"speed" : 0.9
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Sfx Human Voice\\Voce 4.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 4.wav",
 								"filename" : "Voce 4.wav",
 								"filekind" : "audiofile",
-								"id" : "u054000571",
+								"id" : "u192002308",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 0
+									"timestretch" : 0,
+									"speed" : 0.9
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Sfx Human Voice\\Voce 5.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 5.wav",
 								"filename" : "Voce 5.wav",
 								"filekind" : "audiofile",
-								"id" : "u669000572",
+								"id" : "u426002311",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 0
+									"timestretch" : 0,
+									"speed" : 0.9
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Sfx Human Voice\\Voce 6.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 6.wav",
 								"filename" : "Voce 6.wav",
 								"filekind" : "audiofile",
-								"id" : "u866000573",
+								"id" : "u374002314",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 0
+									"timestretch" : 0,
+									"speed" : 0.9
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Sfx Human Voice\\Voce 7.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 7.wav",
 								"filename" : "Voce 7.wav",
 								"filekind" : "audiofile",
-								"id" : "u487000574",
+								"id" : "u589002317",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 0
+									"timestretch" : 0,
+									"speed" : 0.9
 								}
 
 							}
@@ -762,15 +2204,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 857.666685163974762, 800.333345711231232, 150.0, 89.0 ],
+					"patching_rect" : [ 856.416690930724144, 783.000019133090973, 150.0, 103.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 951.666685163974762, 698.0, 150.0, 89.0 ],
-					"text" : "outputs:\n\n1 = A dreapta\n4 = A stanga\n5 = B stanga\n8 = B dreapta"
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 951.666685163974762, 698.0, 150.0, 103.0 ],
+					"text" : "outputs:\n\n1 = A dreapta\n4 = A stanga\n5 = B stanga\n8 = B dreapta\n7 = sub"
 				}
 
 			}
@@ -1020,10 +2462,10 @@
 					"clipheight" : 36.333333760499954,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\chinese speaking crowd Wuhan Market Sound Effect.mp3",
-								"filename" : "chinese speaking crowd Wuhan Market Sound Effect.mp3",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
+								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u436000890",
+								"id" : "u974001952",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -1032,10 +2474,22 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\German Crowd with Hum of Voices.mp3",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/English People Speaking.wav",
+								"filename" : "English People Speaking.wav",
+								"filekind" : "audiofile",
+								"id" : "u666001958",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u424000893",
+								"id" : "u091001964",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -1044,22 +2498,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\Group of People Talking _ HQ Sound Effect.mp3",
-								"filename" : "Group of People Talking _ HQ Sound Effect.mp3",
-								"filekind" : "audiofile",
-								"id" : "u260000896",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\Prague, Czech Republic Outdoor Crowd Ambience.mp3",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u286000899",
+								"id" : "u170001970",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -1108,10 +2550,10 @@
 					"clipheight" : 36.333333760499954,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\chinese speaking crowd Wuhan Market Sound Effect.mp3",
-								"filename" : "chinese speaking crowd Wuhan Market Sound Effect.mp3",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
+								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u768000877",
+								"id" : "u182001955",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -1120,10 +2562,22 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\German Crowd with Hum of Voices.mp3",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/English People Speaking.wav",
+								"filename" : "English People Speaking.wav",
+								"filekind" : "audiofile",
+								"id" : "u273001961",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u264000881",
+								"id" : "u002001967",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -1132,22 +2586,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\Group of People Talking _ HQ Sound Effect.mp3",
-								"filename" : "Group of People Talking _ HQ Sound Effect.mp3",
-								"filekind" : "audiofile",
-								"id" : "u209000884",
-								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\Voci Background\\Prague, Czech Republic Outdoor Crowd Ambience.mp3",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u139000887",
+								"id" : "u533001973",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -1509,10 +2951,10 @@
 					"clipheight" : 27.666672170162201,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\The Bridge-Fundal 1.wav",
-								"filename" : "The Bridge-Fundal 1.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/fundal1.wav",
+								"filename" : "fundal1.wav",
 								"filekind" : "audiofile",
-								"id" : "u650000870",
+								"id" : "u803001506",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -1521,10 +2963,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\Resolume2\\Documents\\GitHub\\the_bridge\\audio\\The Bridge-Fundal 2.wav",
-								"filename" : "The Bridge-Fundal 2.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/fundal2.wav",
+								"filename" : "fundal2.wav",
 								"filekind" : "audiofile",
-								"id" : "u242000873",
+								"id" : "u095001509",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -1614,6 +3056,32 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "timestretch",
+					"id" : "obj-73",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1219.000000596046448, 229.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "speed",
+					"id" : "obj-76",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1219.000000596046448, 203.166678369045258, 150.0, 22.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1624,14 +3092,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
+					"destination" : [ "obj-93", 0 ],
 					"source" : [ "obj-100", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
+					"destination" : [ "obj-93", 0 ],
 					"source" : [ "obj-101", 0 ]
 				}
 
@@ -2110,6 +3578,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"order" : 1,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"order" : 0,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-52", 0 ]
 				}
@@ -2133,6 +3617,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-54", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -2194,6 +3692,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 3 ],
 					"order" : 0,
 					"source" : [ "obj-63", 0 ]
@@ -2221,6 +3726,13 @@
 					"destination" : [ "obj-12", 0 ],
 					"order" : 3,
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}
@@ -2270,6 +3782,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 3 ],
 					"order" : 0,
 					"source" : [ "obj-7", 1 ]
@@ -2309,9 +3828,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 7 ],
 					"hidden" : 1,
 					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-73", 0 ]
 				}
 
 			}
@@ -2333,8 +3866,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"source" : [ "obj-79", 0 ]
 				}
 
 			}
@@ -2386,6 +3940,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-89", 0 ],
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-84", 0 ]
 				}
@@ -2416,6 +3977,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-94", 0 ],
 					"source" : [ "obj-88", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"source" : [ "obj-89", 0 ]
 				}
 
 			}
@@ -2475,6 +4043,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-95", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 3 ],
 					"order" : 0,
 					"source" : [ "obj-97", 0 ]
@@ -2529,30 +4104,30 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Ezra Voices.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Synth Long",
-				"patcherrelativepath" : "./audio/Sfx Synth Long",
+				"name" : "Chinese Speaking Crowd in Wuhan Market.wav",
+				"bootpath" : "~/Documents/the_bridge/audio/voci_bg",
+				"patcherrelativepath" : "./audio/voci_bg",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "English People Speaking.wav",
+				"bootpath" : "~/Documents/the_bridge/audio/voci_bg",
+				"patcherrelativepath" : "./audio/voci_bg",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "German Crowd with Hum of Voices.mp3",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Voci Background",
-				"patcherrelativepath" : "./audio/Voci Background",
+				"bootpath" : "~/Documents/the_bridge/audio/voci_bg",
+				"patcherrelativepath" : "./audio/voci_bg",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Group of People Talking _ HQ Sound Effect.mp3",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Voci Background",
-				"patcherrelativepath" : "./audio/Voci Background",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Heart Beat.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short",
-				"patcherrelativepath" : "./audio/Sfx Sound Design Short",
+				"name" : "HeartBeat.wav",
+				"bootpath" : "~/Documents/the_bridge/audio/sfx_short",
+				"patcherrelativepath" : "./audio/sfx_short",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -2568,163 +4143,58 @@
 			}
 , 			{
 				"name" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Voci Background",
-				"patcherrelativepath" : "./audio/Voci Background",
+				"bootpath" : "~/Documents/the_bridge/audio/voci_bg",
+				"patcherrelativepath" : "./audio/voci_bg",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Respiratie cu Efect.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short",
-				"patcherrelativepath" : "./audio/Sfx Sound Design Short",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sfx Short 1.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short",
-				"patcherrelativepath" : "./audio/Sfx Sound Design Short",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sfx Short 2.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short",
-				"patcherrelativepath" : "./audio/Sfx Sound Design Short",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sfx Short 3.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short",
-				"patcherrelativepath" : "./audio/Sfx Sound Design Short",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sfx Short 4.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short",
-				"patcherrelativepath" : "./audio/Sfx Sound Design Short",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sfx Short 5.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short",
-				"patcherrelativepath" : "./audio/Sfx Sound Design Short",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sfx Short 6.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short",
-				"patcherrelativepath" : "./audio/Sfx Sound Design Short",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sfx Short 7.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Sound Design Short",
-				"patcherrelativepath" : "./audio/Sfx Sound Design Short",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Synth Bass.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Synth Long",
-				"patcherrelativepath" : "./audio/Sfx Synth Long",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "The Bridge-Fundal 1.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio",
-				"patcherrelativepath" : "./audio",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "The Bridge-Fundal 2.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio",
-				"patcherrelativepath" : "./audio",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Violin 1.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Synth Long",
-				"patcherrelativepath" : "./audio/Sfx Synth Long",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Violin 2.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Synth Long",
-				"patcherrelativepath" : "./audio/Sfx Synth Long",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Viori + Synth.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Synth Long",
-				"patcherrelativepath" : "./audio/Sfx Synth Long",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Voce 1.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Human Voice",
-				"patcherrelativepath" : "./audio/Sfx Human Voice",
+				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 2.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Human Voice",
-				"patcherrelativepath" : "./audio/Sfx Human Voice",
+				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 3.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Human Voice",
-				"patcherrelativepath" : "./audio/Sfx Human Voice",
+				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 4.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Human Voice",
-				"patcherrelativepath" : "./audio/Sfx Human Voice",
+				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 5.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Human Voice",
-				"patcherrelativepath" : "./audio/Sfx Human Voice",
+				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 6.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Human Voice",
-				"patcherrelativepath" : "./audio/Sfx Human Voice",
+				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 7.wav",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Sfx Human Voice",
-				"patcherrelativepath" : "./audio/Sfx Human Voice",
+				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "chinese speaking crowd Wuhan Market Sound Effect.mp3",
-				"bootpath" : "~/Documents/GitHub/the_bridge/audio/Voci Background",
-				"patcherrelativepath" : "./audio/Voci Background",
-				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
@@ -2735,14 +4205,35 @@
 			}
 , 			{
 				"name" : "drunkwalk.maxpat",
-				"bootpath" : "~/Documents/GitHub/the_bridge",
+				"bootpath" : "~/Documents/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fundal1.wav",
+				"bootpath" : "~/Documents/the_bridge/audio",
+				"patcherrelativepath" : "./audio",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fundal2.wav",
+				"bootpath" : "~/Documents/the_bridge/audio",
+				"patcherrelativepath" : "./audio",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hot.wav",
+				"bootpath" : "~/Documents/the_bridge/audio/sfx_synth",
+				"patcherrelativepath" : "./audio/sfx_synth",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "test-comms.maxpat",
-				"bootpath" : "~/Documents/GitHub/the_bridge",
+				"bootpath" : "~/Documents/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
