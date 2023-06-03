@@ -483,8 +483,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 163.922607421875, 139.0, 22.0 ],
-					"text" : "pak scaling 1. 1. 0.001 0"
+					"patching_rect" : [ 50.0, 163.922607421875, 155.0, 22.0 ],
+					"text" : "pak scaling 1. 1. 0.001 0.01"
 				}
 
 			}
@@ -525,7 +525,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_trigger/Sfx Short 1.wav",
 								"filename" : "Sfx Short 1.wav",
 								"filekind" : "audiofile",
-								"id" : "u708002333",
+								"id" : "u891000632",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -537,7 +537,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_trigger/Sfx Short 2.wav",
 								"filename" : "Sfx Short 2.wav",
 								"filekind" : "audiofile",
-								"id" : "u236002336",
+								"id" : "u650000635",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -549,7 +549,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_trigger/Sfx Short 3.wav",
 								"filename" : "Sfx Short 3.wav",
 								"filekind" : "audiofile",
-								"id" : "u942002339",
+								"id" : "u791000638",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -561,7 +561,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_trigger/Sfx Short 6.wav",
 								"filename" : "Sfx Short 6.wav",
 								"filekind" : "audiofile",
-								"id" : "u486002342",
+								"id" : "u354000641",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -573,7 +573,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_trigger/Sfx Short 7.wav",
 								"filename" : "Sfx Short 7.wav",
 								"filekind" : "audiofile",
-								"id" : "u470002345",
+								"id" : "u142000644",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
