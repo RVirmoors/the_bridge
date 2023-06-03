@@ -96,7 +96,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -278,10 +277,10 @@
 					"clipheight" : 34.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/heart.wav",
+								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_trigger/heart.wav",
 								"filename" : "heart.wav",
 								"filekind" : "audiofile",
-								"id" : "u305001592",
+								"id" : "u838000628",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
