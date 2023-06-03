@@ -4,7 +4,7 @@
 
 2. fetch changes from cloud
 
-[fetch](fetch.gif)
+![fetch](fetch.gif)
 
 3. run main.maxpat
 
