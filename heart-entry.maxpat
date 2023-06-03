@@ -96,6 +96,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -115,8 +116,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 44.999998969417575, 190.0, 139.0, 22.0 ],
-									"text" : "combine path /heart.wav"
+									"patching_rect" : [ 44.999998969417575, 190.0, 199.0, 22.0 ],
+									"text" : "combine path /sfx_trigger/heart.wav"
 								}
 
 							}
@@ -280,7 +281,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/heart.wav",
 								"filename" : "heart.wav",
 								"filekind" : "audiofile",
-								"id" : "u098000798",
+								"id" : "u305001592",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -313,11 +314,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-111",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 119.0, 39.999997871536266, 30.0, 30.0 ]
 				}
 
@@ -326,7 +327,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-112",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -338,7 +339,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-115",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -396,16 +397,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "heart.wav",
-				"bootpath" : "~/Documents/the_bridge/audio",
-				"patcherrelativepath" : "./audio",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
