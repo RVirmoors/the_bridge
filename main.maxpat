@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, -1003.0, 1852.0, 969.0 ],
+		"rect" : [ 42.0, -995.0, 1852.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-183",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 291.0, 149.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 18.0,
 					"id" : "obj-181",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 458.400016605854034, 425.833345293998718, 92.0, 48.0 ],
+					"patching_rect" : [ 458.400016605854034, 425.833345293998718, 113.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 495.516678869724274, 426.833345293998718, 141.0, 27.0 ],
 					"text" : "DIST:            m"
@@ -97,7 +109,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 97.0, 383.0, 46.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "WARM"
 				}
 
@@ -197,7 +208,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.60000067949295, 453.333345293998718, 92.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.400016605854034, 426.833345293998718, 92.0, 27.0 ],
+					"presentation_rect" : [ 222.400016605854034, 428.333345293998718, 72.0, 27.0 ],
 					"text" : "STATE:"
 				}
 
@@ -539,6 +550,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"cantchange" : 1,
 					"fontface" : 1,
 					"fontsize" : 18.0,
 					"format" : 6,
@@ -1051,7 +1063,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_synth/vn_end.wav",
 								"filename" : "vn_end.wav",
 								"filekind" : "audiofile",
-								"id" : "u968000708",
+								"id" : "u283000683",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -1651,7 +1663,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_short/breathing.wav",
 								"filename" : "breathing.wav",
 								"filekind" : "audiofile",
-								"id" : "u152000704",
+								"id" : "u289000679",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
@@ -3243,7 +3255,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_synth/hot.wav",
 								"filename" : "hot.wav",
 								"filekind" : "audiofile",
-								"id" : "u700000700",
+								"id" : "u072000675",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3317,12 +3329,11 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_short/HeartBeat.wav",
 								"filename" : "HeartBeat.wav",
 								"filekind" : "audiofile",
-								"id" : "u738000641",
+								"id" : "u824000616",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"loop" : 1,
-									"speed" : 1.007142857142857
+									"loop" : 1
 								}
 
 							}
@@ -3465,7 +3476,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 1.wav",
 								"filename" : "Voce 1.wav",
 								"filekind" : "audiofile",
-								"id" : "u668000678",
+								"id" : "u778000653",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3477,7 +3488,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 2.wav",
 								"filename" : "Voce 2.wav",
 								"filekind" : "audiofile",
-								"id" : "u472000681",
+								"id" : "u522000656",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3489,7 +3500,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 3.wav",
 								"filename" : "Voce 3.wav",
 								"filekind" : "audiofile",
-								"id" : "u928000684",
+								"id" : "u800000659",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3501,7 +3512,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 4.wav",
 								"filename" : "Voce 4.wav",
 								"filekind" : "audiofile",
-								"id" : "u844000687",
+								"id" : "u599000662",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3513,7 +3524,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 5.wav",
 								"filename" : "Voce 5.wav",
 								"filekind" : "audiofile",
-								"id" : "u428000690",
+								"id" : "u397000665",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3525,7 +3536,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 6.wav",
 								"filename" : "Voce 6.wav",
 								"filekind" : "audiofile",
-								"id" : "u706000693",
+								"id" : "u216000668",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3537,7 +3548,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 7.wav",
 								"filename" : "Voce 7.wav",
 								"filekind" : "audiofile",
-								"id" : "u039000696",
+								"id" : "u728000671",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3821,7 +3832,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
 								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u527000653",
+								"id" : "u264000628",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3833,7 +3844,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/English People Speaking.wav",
 								"filename" : "English People Speaking.wav",
 								"filekind" : "audiofile",
-								"id" : "u353000659",
+								"id" : "u529000634",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3845,7 +3856,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u583000665",
+								"id" : "u502000640",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3857,7 +3868,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u565000671",
+								"id" : "u995000646",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3907,7 +3918,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
 								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u856000656",
+								"id" : "u749000631",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3919,7 +3930,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/English People Speaking.wav",
 								"filename" : "English People Speaking.wav",
 								"filekind" : "audiofile",
-								"id" : "u856000662",
+								"id" : "u948000637",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3931,7 +3942,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u455000668",
+								"id" : "u968000643",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3943,7 +3954,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u734000674",
+								"id" : "u140000649",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4294,7 +4305,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/fundal1.wav",
 								"filename" : "fundal1.wav",
 								"filekind" : "audiofile",
-								"id" : "u288000645",
+								"id" : "u754000620",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4306,7 +4317,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/fundal2.wav",
 								"filename" : "fundal2.wav",
 								"filekind" : "audiofile",
-								"id" : "u423000648",
+								"id" : "u941000623",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -5290,6 +5301,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-179", 0 ],
 					"source" : [ "obj-180", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"source" : [ "obj-183", 0 ]
 				}
 
 			}
