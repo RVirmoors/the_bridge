@@ -2356,7 +2356,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-44", 0 ],
+					"order" : 1,
+					"source" : [ "obj-66", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
 					"order" : 1,
 					"source" : [ "obj-66", 7 ]
 				}
@@ -2364,17 +2372,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
+					"destination" : [ "obj-47", 0 ],
 					"order" : 1,
 					"source" : [ "obj-66", 9 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"order" : 1,
-					"source" : [ "obj-66", 8 ]
 				}
 
 			}
