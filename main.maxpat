@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, -995.0, 1852.0, 969.0 ],
+		"rect" : [ 34.0, -1003.0, 1852.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,184 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-181",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 458.400016605854034, 425.833345293998718, 92.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 495.516678869724274, 426.833345293998718, 141.0, 27.0 ],
+					"text" : "DIST:            m"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-178",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 155.0, 383.0, 34.0, 22.0 ],
+					"text" : "HOT"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-179",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 155.10000067949295, 356.500038504600525, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-180",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 155.10000067949295, 329.500015497207642, 33.0, 22.0 ],
+					"text" : "r hot"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-163",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 97.0, 383.0, 46.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "WARM"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-175",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 97.10000067949295, 356.500038504600525, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-177",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 97.10000067949295, 329.500015497207642, 45.0, 22.0 ],
+					"text" : "r warm"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-162",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 383.0, 42.0, 22.0 ],
+					"text" : "COLD"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-154",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 40.10000067949295, 356.500038504600525, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-146",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.10000067949295, 329.500015497207642, 38.0, 22.0 ],
+					"text" : "r cold"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"bgcolor2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"bgfillcolor_color1" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "gradient",
+					"fontsize" : 24.0,
+					"gradient" : 1,
+					"id" : "obj-141",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 118.0, 457.666668355464935, 90.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 312.466675639152527, 422.333345293998718, 90.0, 36.0 ],
+					"text" : "COLD",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-137",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 18.60000067949295, 453.333345293998718, 92.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 208.400016605854034, 426.833345293998718, 92.0, 27.0 ],
+					"text" : "STATE:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-136",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 320.0, 458.0, 92.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.166658341884613, 426.833345293998718, 92.0, 27.0 ],
+					"text" : "ENTRY:"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-176",
 					"maxclass" : "message",
@@ -360,14 +538,23 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"fontface" : 1,
+					"fontsize" : 18.0,
 					"format" : 6,
 					"id" : "obj-135",
 					"maxclass" : "flonum",
+					"maximum" : 10.0,
+					"minimum" : 0.1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1558.166685163974762, 415.500016203208929, 50.0, 22.0 ]
+					"patching_rect" : [ 1558.166685163974762, 407.333360135555267, 64.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 558.166685163974762, 425.833345293998718, 64.0, 29.0 ],
+					"textcolor" : [ 0.117647058823529, 0.019607843137255, 0.501960784313725, 1.0 ],
+					"triscale" : 0.0
 				}
 
 			}
@@ -390,7 +577,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1558.166685163974762, 382.833361497207648, 35.0, 22.0 ],
+					"patching_rect" : [ 1558.166685163974762, 379.833361497207648, 35.0, 22.0 ],
 					"text" : "r dist"
 				}
 
@@ -538,7 +725,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1640.166685163974762, 752.333345592021942, 91.0, 90.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 266.666676580905914, 219.600001573562622, 55.0, 124.0 ],
+					"presentation_rect" : [ 160.600002110004425, 207.600001573562622, 55.0, 124.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[5]",
@@ -864,7 +1051,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_synth/vn_end.wav",
 								"filename" : "vn_end.wav",
 								"filekind" : "audiofile",
-								"id" : "u395000973",
+								"id" : "u968000708",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -963,7 +1150,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1052.266678094863892, 407.333360135555267, 107.0, 127.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 620.266671657562256, 191.733336985111237, 70.0, 143.0 ],
+					"presentation_rect" : [ 299.266671657562256, 207.600001573562622, 70.0, 124.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -991,7 +1178,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1526.666685163974762, 186.133336901664734, 70.0, 143.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 785.516678869724274, 263.000002503395081, 70.0, 143.0 ],
+					"presentation_rect" : [ 222.516678869724274, 207.600001573562622, 72.0, 124.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -1156,7 +1343,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 352.799992382526398, 978.333345711231232, 121.0, 124.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 174.600002110004425, 219.600001573562622, 48.0, 124.0 ],
+					"presentation_rect" : [ 92.00000137090683, 207.600001573562622, 48.0, 124.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -1464,7 +1651,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_short/breathing.wav",
 								"filename" : "breathing.wav",
 								"filekind" : "audiofile",
-								"id" : "u400000686",
+								"id" : "u152000704",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
@@ -3056,11 +3243,11 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_synth/hot.wav",
 								"filename" : "hot.wav",
 								"filekind" : "audiofile",
-								"id" : "u841000682",
+								"id" : "u700000700",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
@@ -3130,12 +3317,12 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_short/HeartBeat.wav",
 								"filename" : "HeartBeat.wav",
 								"filekind" : "audiofile",
-								"id" : "u959000623",
+								"id" : "u738000641",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1,
-									"speed" : 1.000225303750822
+									"speed" : 1.007142857142857
 								}
 
 							}
@@ -3278,7 +3465,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 1.wav",
 								"filename" : "Voce 1.wav",
 								"filekind" : "audiofile",
-								"id" : "u286000660",
+								"id" : "u668000678",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3290,7 +3477,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 2.wav",
 								"filename" : "Voce 2.wav",
 								"filekind" : "audiofile",
-								"id" : "u231000663",
+								"id" : "u472000681",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3302,7 +3489,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 3.wav",
 								"filename" : "Voce 3.wav",
 								"filekind" : "audiofile",
-								"id" : "u348000666",
+								"id" : "u928000684",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3314,7 +3501,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 4.wav",
 								"filename" : "Voce 4.wav",
 								"filekind" : "audiofile",
-								"id" : "u799000669",
+								"id" : "u844000687",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3326,7 +3513,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 5.wav",
 								"filename" : "Voce 5.wav",
 								"filekind" : "audiofile",
-								"id" : "u131000672",
+								"id" : "u428000690",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3338,7 +3525,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 6.wav",
 								"filename" : "Voce 6.wav",
 								"filekind" : "audiofile",
-								"id" : "u442000675",
+								"id" : "u706000693",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3350,7 +3537,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 7.wav",
 								"filename" : "Voce 7.wav",
 								"filekind" : "audiofile",
-								"id" : "u046000678",
+								"id" : "u039000696",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3375,7 +3562,7 @@
 					"patching_rect" : [ 1157.0, 269.000023007392883, 146.0, 147.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 638.799991428852081, 30.200000166893005, 146.0, 147.0 ],
+					"presentation_rect" : [ 487.516678869724274, 10.166682243347168, 149.0, 150.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -3393,7 +3580,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 913.0, 114.0, 121.0, 124.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 347.399991571903229, 219.600001573562622, 121.0, 124.0 ],
+					"presentation_rect" : [ -18.600008428096771, 207.600001573562622, 121.0, 124.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -3433,7 +3620,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 758.400006175041199, 436.000027656555176, 24.0, 24.0 ]
+					"patching_rect" : [ 758.400006175041199, 436.000027656555176, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 121.400006175041199, 428.333345293998718, 24.0, 24.0 ]
 				}
 
 			}
@@ -3445,7 +3634,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 389.5, 453.333345293998718, 24.0, 24.0 ]
+					"patching_rect" : [ 389.5, 453.333345293998718, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 87.5, 428.333345293998718, 24.0, 24.0 ]
 				}
 
 			}
@@ -3457,6 +3648,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 758.400006175041199, 407.333360135555267, 27.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 121.400006175041199, 399.66667777299881, 27.0, 22.0 ],
 					"text" : "r Bt"
 				}
 
@@ -3469,6 +3662,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 389.5, 424.66667777299881, 27.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 87.5, 399.66667777299881, 27.0, 22.0 ],
 					"text" : "r At"
 				}
 
@@ -3626,7 +3821,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
 								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u283000635",
+								"id" : "u527000653",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3638,7 +3833,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/English People Speaking.wav",
 								"filename" : "English People Speaking.wav",
 								"filekind" : "audiofile",
-								"id" : "u046000641",
+								"id" : "u353000659",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3650,7 +3845,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u567000647",
+								"id" : "u583000665",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3662,7 +3857,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u048000653",
+								"id" : "u565000671",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3686,8 +3881,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 617.666688501834869, 75.833343327045441, 258.666669905185699, 149.333335041999817 ],
 					"pitchcorrection" : 0,
-					"presentation" : 1,
-					"presentation_rect" : [ 408.666682004928589, 30.200000166893005, 118.666667819023132, 147.733335018157959 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -3714,7 +3907,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
 								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u259000638",
+								"id" : "u856000656",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3726,7 +3919,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/English People Speaking.wav",
 								"filename" : "English People Speaking.wav",
 								"filekind" : "audiofile",
-								"id" : "u064000644",
+								"id" : "u856000662",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3738,7 +3931,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u428000650",
+								"id" : "u455000668",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3750,7 +3943,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u363000656",
+								"id" : "u734000674",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3774,8 +3967,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 347.333343684673309, 75.833343327045441, 258.666669905185699, 149.333335041999817 ],
 					"pitchcorrection" : 0,
-					"presentation" : 1,
-					"presentation_rect" : [ 266.666676580905914, 30.200000166893005, 138.666668117046356, 147.733335018157959 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -4103,7 +4294,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/fundal1.wav",
 								"filename" : "fundal1.wav",
 								"filekind" : "audiofile",
-								"id" : "u381000627",
+								"id" : "u288000645",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4115,7 +4306,7 @@
 								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/fundal2.wav",
 								"filename" : "fundal2.wav",
 								"filekind" : "audiofile",
-								"id" : "u817000630",
+								"id" : "u423000648",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4769,6 +4960,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-154", 0 ],
+					"source" : [ "obj-146", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-147", 0 ]
 				}
@@ -4892,6 +5090,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-162", 0 ],
+					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-169", 0 ],
 					"source" : [ "obj-156", 1 ]
 				}
@@ -4937,6 +5142,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-160", 0 ],
 					"source" : [ "obj-161", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-141", 1 ],
+					"source" : [ "obj-162", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-141", 1 ],
+					"source" : [ "obj-163", 0 ]
 				}
 
 			}
@@ -5027,6 +5246,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-163", 0 ],
+					"source" : [ "obj-175", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-176", 0 ]
 				}
@@ -5034,8 +5260,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-175", 0 ],
+					"source" : [ "obj-177", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-141", 1 ],
+					"source" : [ "obj-178", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-178", 0 ],
+					"source" : [ "obj-179", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-179", 0 ],
+					"source" : [ "obj-180", 0 ]
 				}
 
 			}
