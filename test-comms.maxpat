@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 150.0, 85.0, 1744.0, 969.0 ],
+		"rect" : [ 1762.0, 686.0, 1744.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -199,7 +199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 667.5, 220.0, 227.0, 69.0 ],
+					"patching_rect" : [ 710.833334624767303, 215.333333194255829, 227.0, 69.0 ],
 					"text" : "CONECTEAZA AICI NOISE~ LA DAC~ \nCA SA TESTEZI BOXELE"
 				}
 
@@ -337,7 +337,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 717.0, 298.0, 150.0, 75.0 ],
-					"text" : "1 = A dreapta\n4 = A stanga\n5 = B stanga\n8 = B dreapta\n7 = sub"
+					"text" : "1 = B dreapta\n4 = A dreapta\n5 = A stanga\n8 = B stanga\n7 = sub"
 				}
 
 			}
@@ -854,7 +854,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.0, 358.0, 50.0, 36.0 ],
-					"text" : "/trigger 0"
+					"text" : "/trigger 1"
 				}
 
 			}
@@ -869,14 +869,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -21292.0, -21249.0, 640.0, 480.0 ],
+						"rect" : [ 42.0, 85.0, 1288.0, 1134.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -972,7 +972,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 204.0, 304.0, 67.0, 22.0 ],
-									"text" : "delay 5000"
+									"text" : "delay 1000"
 								}
 
 							}
@@ -1309,14 +1309,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 107.0, 870.0, 1078.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1344,6 +1344,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-60",
@@ -1412,7 +1413,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 204.0, 304.0, 67.0, 22.0 ],
-									"text" : "delay 5000"
+									"text" : "delay 1000"
 								}
 
 							}
@@ -1783,7 +1784,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 410.0, 144.0, 88.0, 22.0 ],
-					"text" : "/distance 109"
+					"text" : "/distance 114"
 				}
 
 			}
@@ -1877,6 +1878,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 4 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}

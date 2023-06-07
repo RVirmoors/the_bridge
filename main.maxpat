@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, -995.0, 1401.0, 711.0 ],
+		"rect" : [ 34.0, 85.0, 3569.0, 2009.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,210 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-233",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 237.5, 544.5, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-225",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1996.0, 176.500003529953005, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-218",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1897.5, 186.133336901664734, 55.0, 22.0 ],
+					"text" : "pipe 800"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-205",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 1813.166685163974762, 412.0, 76.0, 22.0 ],
+					"text" : "fade-out 800"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-199",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 488.583346113562584, 637.333349466323853, 112.0, 22.0 ],
+					"text" : "mc.receive~ voce 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-198",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1841.0, 186.133336901664734, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-192",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1659.0, 257.5, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-189",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1702.0, 257.5, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-185",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1701.75, 225.5, 74.0, 22.0 ],
+					"text" : "delay 10000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-155",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 1786.0, 186.133336901664734, 52.0, 22.0 ],
+					"text" : "t 1 0 1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-102",
+					"int" : 1,
+					"maxclass" : "gswitch2",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1813.166685163974762, 276.5, 39.0, 32.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-101",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1493.0, 36.5, 38.0, 22.0 ],
+					"text" : "r cold"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-95",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2018.0, 493.5, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2007.0, 543.0, 29.5, 22.0 ],
+					"text" : "3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-100",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1966.266678094863892, 505.800005316734314, 43.0, 22.0 ],
+					"text" : "r reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1058.0, 310.5, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1047.0, 360.0, 29.5, 22.0 ],
+					"text" : "5"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-91",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
@@ -56,8 +260,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1051.0, 605.000005125999451, 98.0, 22.0 ],
-					"text" : "mc.send~ climax"
+					"patching_rect" : [ 1051.0, 605.000005125999451, 90.0, 22.0 ],
+					"text" : "mc.send~ voce"
 				}
 
 			}
@@ -289,36 +493,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-226",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1980.5, 186.166664481163025, 27.0, 22.0 ],
-					"text" : "r Bt"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-227",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1951.5, 186.166664481163025, 27.0, 22.0 ],
-					"text" : "r At"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-224",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1910.0, 186.166664481163025, 38.0, 22.0 ],
+					"patching_rect" : [ 1931.0, 94.033327579498291, 38.0, 22.0 ],
 					"text" : "r cold"
 				}
 
@@ -330,7 +510,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1862.0, 242.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1883.0, 149.866663098335266, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -342,20 +522,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1862.0, 216.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1933.0, 129.0, 34.0, 22.0 ],
 					"text" : "sel 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-221",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1862.0, 186.166664481163025, 45.0, 22.0 ],
-					"text" : "r warm"
 				}
 
 			}
@@ -366,7 +534,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1820.0, 242.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1841.0, 149.866663098335266, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -378,7 +546,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1820.0, 216.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1857.25, 113.033327579498291, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -538,7 +706,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1838.166685163974762, 300.133336901664791, 65.0, 22.0 ],
+					"patching_rect" : [ 1877.166685163974762, 247.000000000000057, 65.0, 22.0 ],
 					"text" : "s hot_gate"
 				}
 
@@ -550,7 +718,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 1820.0, 271.166679218650813, 29.5, 22.0 ],
+					"patching_rect" : [ 1859.0, 218.033342316986079, 29.5, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -574,7 +742,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1820.0, 186.133336901664734, 33.0, 22.0 ],
+					"patching_rect" : [ 1857.25, 83.166664481163025, 33.0, 22.0 ],
 					"text" : "r hot"
 				}
 
@@ -947,20 +1115,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1962.0, 444.0, 63.0, 22.0 ],
+					"patching_rect" : [ 1659.0, 605.000005125999451, 63.0, 22.0 ],
 					"text" : "s end_vox"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-170",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1962.0, 412.0, 66.0, 22.0 ],
-					"text" : "route done"
 				}
 
 			}
@@ -983,7 +1139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1936.0, 267.333341434837337, 58.0, 22.0 ],
+					"patching_rect" : [ 1962.0, 247.000000000000057, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -999,8 +1155,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1173,7 +1329,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1936.0, 295.166679218650813, 34.0, 22.0 ],
+					"patching_rect" : [ 1962.0, 274.833337783813533, 34.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1669,7 +1825,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 389.5, 481.333346000000006, 67.0, 22.0 ],
-					"text" : "heart-entry"
+					"text" : "heart-entry",
+					"varname" : "heart-entry"
 				}
 
 			}
@@ -1691,11 +1848,11 @@
 					"clipheight" : 29.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_synth/climax.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/sfx_synth/climax.wav",
 								"filename" : "climax.wav",
 								"filekind" : "audiofile",
-								"id" : "u087003766",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u526000692",
+								"selection" : [ 0.073684210526316, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1716,7 +1873,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1820.0, 329.500015497207642, 150.0, 30.0 ],
+					"patching_rect" : [ 1833.166685163974762, 333.500015497207642, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -1754,7 +1911,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1052.266678094863892, 371.800005316734314, 43.0, 22.0 ],
+					"patching_rect" : [ 1006.266678094863892, 322.800005316734314, 43.0, 22.0 ],
 					"text" : "r reset"
 				}
 
@@ -2101,8 +2258,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2294,10 +2451,10 @@
 					"clipheight" : 29.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_short/breathing.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/sfx_short/breathing.wav",
 								"filename" : "breathing.wav",
 								"filekind" : "audiofile",
-								"id" : "u695003762",
+								"id" : "u682000688",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
@@ -2349,8 +2506,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2547,8 +2704,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2745,8 +2902,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3099,8 +3256,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3441,8 +3598,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3814,10 +3971,10 @@
 					"clipheight" : 41.79999840259552,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_synth/hot.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/sfx_synth/hot.wav",
 								"filename" : "hot.wav",
 								"filekind" : "audiofile",
-								"id" : "u295003758",
+								"id" : "u720000684",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -3888,16 +4045,16 @@
 					"clipheight" : 29.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/sfx_short/HeartBeat.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/sfx_short/HeartBeat.wav",
 								"filename" : "HeartBeat.wav",
 								"filekind" : "audiofile",
-								"id" : "u302003699",
+								"id" : "u937000625",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1,
-									"timestretch" : 0,
-									"speed" : 0.801559887555161
+									"timestretch" : 1,
+									"speed" : 1.616255937599522
 								}
 
 							}
@@ -3918,7 +4075,7 @@
 					"patching_rect" : [ 1444.333370327949524, 794.200008690357208, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
-					"timestretch" : [ 0 ]
+					"timestretch" : [ 1 ]
 				}
 
 			}
@@ -4037,86 +4194,86 @@
 					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 1.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 1.wav",
 								"filename" : "Voce 1.wav",
 								"filekind" : "audiofile",
-								"id" : "u647003736",
+								"id" : "u772000662",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 0.9
+									"speed" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 2.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 2.wav",
 								"filename" : "Voce 2.wav",
 								"filekind" : "audiofile",
-								"id" : "u855003739",
+								"id" : "u224000665",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 0.9
+									"speed" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 3.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 3.wav",
 								"filename" : "Voce 3.wav",
 								"filekind" : "audiofile",
-								"id" : "u968003742",
+								"id" : "u837000668",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 0.9
+									"speed" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 4.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 4.wav",
 								"filename" : "Voce 4.wav",
 								"filekind" : "audiofile",
-								"id" : "u801003745",
+								"id" : "u924000671",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 0.9
+									"speed" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 5.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 5.wav",
 								"filename" : "Voce 5.wav",
 								"filekind" : "audiofile",
-								"id" : "u757003748",
+								"id" : "u577000674",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 0.9
+									"speed" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 6.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 6.wav",
 								"filename" : "Voce 6.wav",
 								"filekind" : "audiofile",
-								"id" : "u539003751",
+								"id" : "u796000677",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 0.9
+									"speed" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voce/Voce 7.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 7.wav",
 								"filename" : "Voce 7.wav",
 								"filekind" : "audiofile",
-								"id" : "u508003754",
+								"id" : "u891000680",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 0.9
+									"speed" : 1
 								}
 
 							}
@@ -4184,7 +4341,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 7,
 					"presentation_rect" : [ 312.466675639152527, 528.399997472763062, 150.0, 103.0 ],
-					"text" : "outputs:\n\n1 = A dreapta\n4 = A stanga\n5 = B stanga\n8 = B dreapta\n7 = sub"
+					"text" : "outputs:\n\n1 = B dreapta\n4 = A dreapta\n5 = A stanga\n8 = B stanga\n7 = sub"
 				}
 
 			}
@@ -4398,10 +4555,10 @@
 					"clipheight" : 36.333333760499954,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
 								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u904003711",
+								"id" : "u622000637",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4410,10 +4567,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/English People Speaking.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/English People Speaking.wav",
 								"filename" : "English People Speaking.wav",
 								"filekind" : "audiofile",
-								"id" : "u052003717",
+								"id" : "u692000643",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4422,10 +4579,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u169003723",
+								"id" : "u665000649",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4434,10 +4591,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u712003729",
+								"id" : "u418000655",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4484,10 +4641,10 @@
 					"clipheight" : 36.333333760499954,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
 								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u276003714",
+								"id" : "u138000640",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4496,10 +4653,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/English People Speaking.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/English People Speaking.wav",
 								"filename" : "English People Speaking.wav",
 								"filekind" : "audiofile",
-								"id" : "u745003720",
+								"id" : "u210000646",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4508,10 +4665,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u467003726",
+								"id" : "u104000652",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4520,10 +4677,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u800003732",
+								"id" : "u304000658",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4603,7 +4760,7 @@
 					"patching_rect" : [ 1182.916685163974762, 1247.333345711231232, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 495.516678869724274, 489.400017142295837, 360.0, 155.0 ],
-					"setfilter" : [ 0, 7, 1, 0, 0, 2900.0, 1.361051559448242, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 7, 1, 0, 0, 2484.434326171875, 6.767278671264648, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -4786,7 +4943,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 797.416690930724144, 763.500018239021301, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 230.400016605854034, 508.400017142295837, 48.0, 136.0 ],
+					"presentation_rect" : [ 229.400016605854034, 520.399997472763062, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "mc.live.gain~",
@@ -4856,10 +5013,10 @@
 					"clipheight" : 27.666672170162201,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/fundal1.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/fundal1.wav",
 								"filename" : "fundal1.wav",
 								"filekind" : "audiofile",
-								"id" : "u004003703",
+								"id" : "u461000629",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4868,10 +5025,10 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/rv/Documents/the_bridge/audio/fundal2.wav",
+								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/fundal2.wav",
 								"filename" : "fundal2.wav",
 								"filekind" : "audiofile",
-								"id" : "u497003706",
+								"id" : "u842000632",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4934,7 +5091,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 0,
 					"patching_rect" : [ 649.416668340563774, 831.333345711231232, 85.0, 22.0 ],
-					"text" : "dac~ 1 4 5 8 7"
+					"text" : "dac~ 5 4 8 1 7"
 				}
 
 			}
@@ -5022,6 +5179,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-176", 0 ],
+					"source" : [ "obj-101", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-102", 1 ]
 				}
 
 			}
@@ -5649,7 +5827,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-149", 0 ],
+					"destination" : [ "obj-93", 0 ],
 					"source" : [ "obj-152", 0 ]
 				}
 
@@ -5672,6 +5850,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-256", 0 ],
 					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-102", 0 ],
+					"source" : [ "obj-155", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-102", 0 ],
+					"source" : [ "obj-155", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-185", 0 ],
+					"source" : [ "obj-155", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-201", 0 ],
+					"source" : [ "obj-155", 2 ]
 				}
 
 			}
@@ -5746,6 +5952,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 1 ],
+					"order" : 1,
+					"source" : [ "obj-162", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-233", 0 ],
+					"order" : 0,
 					"source" : [ "obj-162", 0 ]
 				}
 
@@ -5753,6 +5968,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 1 ],
+					"order" : 1,
+					"source" : [ "obj-163", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-233", 0 ],
+					"order" : 0,
 					"source" : [ "obj-163", 0 ]
 				}
 
@@ -5832,13 +6056,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-171", 0 ],
-					"source" : [ "obj-170", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-210", 0 ],
 					"source" : [ "obj-172", 0 ]
 				}
@@ -5882,6 +6099,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 1 ],
+					"order" : 1,
+					"source" : [ "obj-178", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-233", 0 ],
+					"order" : 0,
 					"source" : [ "obj-178", 0 ]
 				}
 
@@ -5944,6 +6170,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-189", 0 ],
+					"order" : 0,
+					"source" : [ "obj-185", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-192", 0 ],
+					"order" : 1,
+					"source" : [ "obj-185", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-184", 0 ],
 					"source" : [ "obj-186", 0 ]
 				}
@@ -5953,6 +6195,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-139", 0 ],
 					"source" : [ "obj-188", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-102", 0 ],
+					"order" : 1,
+					"source" : [ "obj-189", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-205", 0 ],
+					"order" : 0,
+					"source" : [ "obj-189", 0 ]
 				}
 
 			}
@@ -6015,6 +6273,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-199", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -6028,15 +6293,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-202", 0 ],
-					"source" : [ "obj-201", 1 ]
+					"destination" : [ "obj-102", 1 ],
+					"source" : [ "obj-201", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"source" : [ "obj-201", 0 ]
+					"destination" : [ "obj-202", 0 ],
+					"source" : [ "obj-201", 1 ]
 				}
 
 			}
@@ -6051,6 +6316,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-206", 0 ],
 					"source" : [ "obj-204", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-209", 1 ],
+					"source" : [ "obj-205", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-209", 0 ],
+					"source" : [ "obj-205", 0 ]
 				}
 
 			}
@@ -6154,7 +6433,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-223", 0 ],
+					"source" : [ "obj-217", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-201", 0 ],
+					"source" : [ "obj-218", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-155", 0 ],
+					"order" : 1,
+					"source" : [ "obj-219", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-198", 0 ],
+					"order" : 0,
 					"source" : [ "obj-219", 0 ]
 				}
 
@@ -6182,14 +6484,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-220", 0 ],
-					"source" : [ "obj-221", 0 ]
+					"destination" : [ "obj-205", 0 ],
+					"order" : 2,
+					"source" : [ "obj-223", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-201", 0 ],
+					"destination" : [ "obj-218", 0 ],
+					"order" : 1,
+					"source" : [ "obj-223", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-225", 0 ],
+					"order" : 0,
 					"source" : [ "obj-223", 0 ]
 				}
 
@@ -6198,20 +6510,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-220", 0 ],
 					"source" : [ "obj-224", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-220", 0 ],
-					"source" : [ "obj-226", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-220", 0 ],
-					"source" : [ "obj-227", 0 ]
 				}
 
 			}
@@ -6358,7 +6656,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-171", 0 ],
+					"order" : 0,
+					"source" : [ "obj-248", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-251", 0 ],
+					"order" : 1,
 					"source" : [ "obj-248", 0 ]
 				}
 
@@ -6380,6 +6687,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 1 ],
+					"order" : 1,
+					"source" : [ "obj-255", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-233", 0 ],
+					"order" : 0,
 					"source" : [ "obj-255", 0 ]
 				}
 
@@ -6829,21 +7145,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-170", 0 ],
-					"source" : [ "obj-63", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-209", 1 ],
+					"destination" : [ "obj-205", 2 ],
 					"source" : [ "obj-63", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-209", 0 ],
+					"destination" : [ "obj-205", 1 ],
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -6852,20 +7161,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
-					"source" : [ "obj-65", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-65", 0 ]
 				}
 
 			}
@@ -7080,6 +7375,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-149", 0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-95", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-135", 0 ],
 					"source" : [ "obj-96", 0 ]
 				}
@@ -7098,6 +7414,13 @@
 					"destination" : [ "obj-53", 0 ],
 					"order" : 1,
 					"source" : [ "obj-98", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-209", 0 ],
+					"source" : [ "obj-99", 0 ]
 				}
 
 			}
@@ -7125,28 +7448,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Chinese Speaking Crowd in Wuhan Market.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/voci_bg",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voci_bg",
 				"patcherrelativepath" : "./audio/voci_bg",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "English People Speaking.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/voci_bg",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voci_bg",
 				"patcherrelativepath" : "./audio/voci_bg",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "German Crowd with Hum of Voices.mp3",
-				"bootpath" : "~/Documents/the_bridge/audio/voci_bg",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voci_bg",
 				"patcherrelativepath" : "./audio/voci_bg",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "HeartBeat.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/sfx_short",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/sfx_short",
 				"patcherrelativepath" : "./audio/sfx_short",
 				"type" : "WAVE",
 				"implicit" : 1
@@ -7163,77 +7486,77 @@
 			}
 , 			{
 				"name" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
-				"bootpath" : "~/Documents/the_bridge/audio/voci_bg",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voci_bg",
 				"patcherrelativepath" : "./audio/voci_bg",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 1.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voce",
 				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 2.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voce",
 				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 3.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voce",
 				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 4.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voce",
 				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 5.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voce",
 				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 6.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voce",
 				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Voce 7.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/voce",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/voce",
 				"patcherrelativepath" : "./audio/voce",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "breathing.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/sfx_short",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/sfx_short",
 				"patcherrelativepath" : "./audio/sfx_short",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "climax-pan.maxpat",
-				"bootpath" : "~/Documents/the_bridge",
+				"bootpath" : "~/Documents/GitHub/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "climax.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/sfx_synth",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/sfx_synth",
 				"patcherrelativepath" : "./audio/sfx_synth",
 				"type" : "WAVE",
 				"implicit" : 1
@@ -7246,84 +7569,77 @@
 			}
 , 			{
 				"name" : "drunkwalk.maxpat",
-				"bootpath" : "~/Documents/the_bridge",
+				"bootpath" : "~/Documents/GitHub/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fade-out.maxpat",
-				"bootpath" : "~/Documents/the_bridge",
+				"bootpath" : "~/Documents/GitHub/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fundal1.wav",
-				"bootpath" : "~/Documents/the_bridge/audio",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio",
 				"patcherrelativepath" : "./audio",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fundal2.wav",
-				"bootpath" : "~/Documents/the_bridge/audio",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio",
 				"patcherrelativepath" : "./audio",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heart-entry.maxpat",
-				"bootpath" : "~/Documents/the_bridge",
+				"bootpath" : "~/Documents/GitHub/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heart.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/sfx_trigger",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/sfx_trigger",
 				"patcherrelativepath" : "./audio/sfx_trigger",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hot.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/sfx_synth",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/sfx_synth",
 				"patcherrelativepath" : "./audio/sfx_synth",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan-A-B.maxpat",
-				"bootpath" : "~/Documents/the_bridge",
+				"bootpath" : "~/Documents/GitHub/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "test-comms.maxpat",
-				"bootpath" : "~/Documents/the_bridge",
+				"bootpath" : "~/Documents/GitHub/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "the weight of stars.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "trigger-breath.maxpat",
-				"bootpath" : "~/Documents/the_bridge",
+				"bootpath" : "~/Documents/GitHub/the_bridge",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vn_end.wav",
-				"bootpath" : "~/Documents/the_bridge/audio/sfx_synth",
+				"bootpath" : "~/Documents/GitHub/the_bridge/audio/sfx_synth",
 				"patcherrelativepath" : "./audio/sfx_synth",
 				"type" : "WAVE",
 				"implicit" : 1
