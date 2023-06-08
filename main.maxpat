@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 3569.0, 2009.0 ],
+		"rect" : [ 134.0, 434.0, 933.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -654,7 +654,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-208",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1040,7 +1039,7 @@
 					"patching_rect" : [ 118.10000067949295, 491.000013649463654, 90.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.466675639152527, 422.333345293998718, 90.0, 36.0 ],
-					"text" : "HOT",
+					"text" : "___",
 					"textjustification" : 1
 				}
 
@@ -1562,35 +1561,6 @@
 			}
 , 			{
 				"box" : 				{
-					"coldcolor" : [ 0.968627450980392, 0.972549019607843, 0.047058823529412, 1.0 ],
-					"id" : "obj-22",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1603.166685163974762, 929.333345592021942, 91.0, 90.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 160.600002110004425, 207.600001573562622, 55.0, 124.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~[5]",
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "heartbeat",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "live.gain~[5]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1851,8 +1821,8 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/sfx_synth/climax.wav",
 								"filename" : "climax.wav",
 								"filekind" : "audiofile",
-								"id" : "u526000692",
-								"selection" : [ 0.073684210526316, 1.0 ],
+								"id" : "u745000708",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1875,6 +1845,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1833.166685163974762, 333.500015497207642, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
+					"presentation" : 1,
+					"presentation_rect" : [ 706.516678869724274, 434.500015497207642, 150.0, 30.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -2454,7 +2426,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/sfx_short/breathing.wav",
 								"filename" : "breathing.wav",
 								"filekind" : "audiofile",
-								"id" : "u682000688",
+								"id" : "u936000704",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
@@ -3974,7 +3946,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/sfx_synth/hot.wav",
 								"filename" : "hot.wav",
 								"filekind" : "audiofile",
-								"id" : "u720000684",
+								"id" : "u765000700",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4048,13 +4020,13 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/sfx_short/HeartBeat.wav",
 								"filename" : "HeartBeat.wav",
 								"filekind" : "audiofile",
-								"id" : "u937000625",
+								"id" : "u333000641",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1,
 									"timestretch" : 1,
-									"speed" : 1.616255937599522
+									"speed" : 1.786623409816197
 								}
 
 							}
@@ -4094,7 +4066,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-60",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -4197,11 +4168,11 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 1.wav",
 								"filename" : "Voce 1.wav",
 								"filekind" : "audiofile",
-								"id" : "u772000662",
+								"id" : "u126000678",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1
+									"speed" : 0.9
 								}
 
 							}
@@ -4209,11 +4180,11 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 2.wav",
 								"filename" : "Voce 2.wav",
 								"filekind" : "audiofile",
-								"id" : "u224000665",
+								"id" : "u480000681",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1
+									"speed" : 0.9
 								}
 
 							}
@@ -4221,11 +4192,11 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 3.wav",
 								"filename" : "Voce 3.wav",
 								"filekind" : "audiofile",
-								"id" : "u837000668",
+								"id" : "u843000684",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1
+									"speed" : 0.9
 								}
 
 							}
@@ -4233,11 +4204,11 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 4.wav",
 								"filename" : "Voce 4.wav",
 								"filekind" : "audiofile",
-								"id" : "u924000671",
+								"id" : "u426000687",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1
+									"speed" : 0.9
 								}
 
 							}
@@ -4245,11 +4216,11 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 5.wav",
 								"filename" : "Voce 5.wav",
 								"filekind" : "audiofile",
-								"id" : "u577000674",
+								"id" : "u041000690",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1
+									"speed" : 0.9
 								}
 
 							}
@@ -4257,11 +4228,11 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 6.wav",
 								"filename" : "Voce 6.wav",
 								"filekind" : "audiofile",
-								"id" : "u796000677",
+								"id" : "u180000693",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1
+									"speed" : 0.9
 								}
 
 							}
@@ -4269,11 +4240,11 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voce/Voce 7.wav",
 								"filename" : "Voce 7.wav",
 								"filekind" : "audiofile",
-								"id" : "u891000680",
+								"id" : "u613000696",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1
+									"speed" : 0.9
 								}
 
 							}
@@ -4558,7 +4529,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
 								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u622000637",
+								"id" : "u294000653",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4570,7 +4541,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/English People Speaking.wav",
 								"filename" : "English People Speaking.wav",
 								"filekind" : "audiofile",
-								"id" : "u692000643",
+								"id" : "u055000659",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4582,7 +4553,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u665000649",
+								"id" : "u047000665",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4594,7 +4565,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u418000655",
+								"id" : "u217000671",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4644,7 +4615,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/Chinese Speaking Crowd in Wuhan Market.wav",
 								"filename" : "Chinese Speaking Crowd in Wuhan Market.wav",
 								"filekind" : "audiofile",
-								"id" : "u138000640",
+								"id" : "u018000656",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4656,7 +4627,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/English People Speaking.wav",
 								"filename" : "English People Speaking.wav",
 								"filekind" : "audiofile",
-								"id" : "u210000646",
+								"id" : "u709000662",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4668,7 +4639,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/German Crowd with Hum of Voices.mp3",
 								"filename" : "German Crowd with Hum of Voices.mp3",
 								"filekind" : "audiofile",
-								"id" : "u104000652",
+								"id" : "u732000668",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -4680,7 +4651,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/voci_bg/Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filename" : "Prague, Czech Republic Outdoor Crowd Ambience.mp3",
 								"filekind" : "audiofile",
-								"id" : "u304000658",
+								"id" : "u612000674",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -5016,7 +4987,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/fundal1.wav",
 								"filename" : "fundal1.wav",
 								"filekind" : "audiofile",
-								"id" : "u461000629",
+								"id" : "u081000645",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -5028,7 +4999,7 @@
 								"absolutepath" : "C:/Users/Resolume2/Documents/GitHub/the_bridge/audio/fundal2.wav",
 								"filename" : "fundal2.wav",
 								"filekind" : "audiofile",
-								"id" : "u842000632",
+								"id" : "u360000648",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -5952,7 +5923,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 1 ],
-					"order" : 1,
 					"source" : [ "obj-162", 0 ]
 				}
 
@@ -5960,7 +5930,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-233", 0 ],
-					"order" : 0,
+					"disabled" : 1,
 					"source" : [ "obj-162", 0 ]
 				}
 
@@ -5968,7 +5938,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 1 ],
-					"order" : 1,
 					"source" : [ "obj-163", 0 ]
 				}
 
@@ -5976,7 +5945,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-233", 0 ],
-					"order" : 0,
+					"disabled" : 1,
 					"source" : [ "obj-163", 0 ]
 				}
 
@@ -6099,7 +6068,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 1 ],
-					"order" : 1,
 					"source" : [ "obj-178", 0 ]
 				}
 
@@ -6107,7 +6075,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-233", 0 ],
-					"order" : 0,
+					"disabled" : 1,
 					"source" : [ "obj-178", 0 ]
 				}
 
@@ -6463,20 +6431,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-113", 2 ],
-					"source" : [ "obj-22", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-113", 1 ],
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-223", 0 ],
 					"source" : [ "obj-220", 0 ]
 				}
@@ -6687,7 +6641,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 1 ],
-					"order" : 1,
 					"source" : [ "obj-255", 0 ]
 				}
 
@@ -6695,7 +6648,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-233", 0 ],
-					"order" : 0,
+					"disabled" : 1,
 					"source" : [ "obj-255", 0 ]
 				}
 
@@ -7274,13 +7227,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-79", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -7432,7 +7378,6 @@
 			"obj-149" : [ "live.gain~[3]", "speech", 0 ],
 			"obj-209" : [ "live.gain~[6]", "CLIMAX", 0 ],
 			"obj-211::obj-86" : [ "vst~", "vst~", 0 ],
-			"obj-22" : [ "live.gain~[5]", "heartbeat", 0 ],
 			"obj-6" : [ "live.gain~", "crowds", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
